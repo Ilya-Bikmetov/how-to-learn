@@ -36,7 +36,7 @@
 
 .header__subtitle {
   line-height: 25px;
-  width: 388px;
+  max-width: 388px;
   font-size: 18px;
   font-weight: normal;
   position: absolute;
@@ -50,6 +50,7 @@
   width: 183px;
   background-size: contain;
   background-repeat: no-repeat;
+  transition: opacity .5s ease-in-out;
 }
 
 .logo_place_header {
@@ -61,7 +62,7 @@
  }
 
  .logo_place_header:hover {
-  box-shadow: 0px 0px 20px #2f80ed;
+  opacity: .5;
  }
 
 .logo_place_footer {
@@ -101,7 +102,7 @@
   }
 
 .two-columns__brief {
-  width: 175px;
+  max-width: 175px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -226,12 +227,11 @@
   flex-direction: column;
   align-items: center;
   margin: 0;
-  padding-top: 100px;
 }
 
 .feynman__title {
-  margin: 0;
-  width: 648px;
+  margin: 100px 0 0;
+  max-width: 648px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
@@ -240,7 +240,7 @@
 }
 
 .feynman__subtitle {
-  margin: 70px 0 0 0;
+  margin: 70px 0 0;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
