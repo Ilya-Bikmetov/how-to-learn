@@ -6,3 +6,7 @@
 .cards__item:nth-child(3) {
   margin-right: 0;
 }
+
+.cards__item:last-child {
+  margin-right: 0;
+}
